@@ -1,0 +1,32 @@
+html {
+	background-image: url("assets/restaurant.jpg");
+	background-image: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	height: 1000px;
+	width: 99.25%;
+}
+
+h1 {
+	font-size: 30px;
+	color: white;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+}
+
+nav button {
+	justify-content: flex-end;
+}
