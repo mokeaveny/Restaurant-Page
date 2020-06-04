@@ -1,6 +1,6 @@
 export function renderMenu() {
 	const menuContainer = document.createElement("div");
-	menuContainer.id = "menu-container";
+	menuContainer.id = "current-container";
 	const menuList = document.createElement("ul");
 	const menuItem1 = document.createElement("li");
 	menuItem1.textContent = "Southern Fried Chicken";

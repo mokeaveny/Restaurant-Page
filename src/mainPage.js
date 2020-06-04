@@ -20,6 +20,7 @@ export function createMainPage() {
 	contentContainer.appendChild(navBar);
 
 	const restaurantInfo = document.createElement("p");
+	restaurantInfo.id = "restaurant-info";
 	restaurantInfo.textContent = "The best up and coming restaurant in the U.K. Choose from a selection of innovative dishes that will completely blow you away!";
 	contentContainer.appendChild(restaurantInfo);
 }
