@@ -7,8 +7,10 @@ export function createMainPage() {
 	buttonContainer.id = "button-container";
 	const menuButton = document.createElement("button");
 	const contactButton = document.createElement("button");
+	menuButton.id = "menu-button";
 	menuButton.textContent = "Menu";
 	contactButton.textContent = "Contact";
+	contactButton.id = "contact-button";
 	heading.textContent = "Mo's Magic Munch";
 
 	buttonContainer.appendChild(menuButton);

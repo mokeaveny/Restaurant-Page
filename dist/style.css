@@ -23,7 +23,7 @@ nav {
 	align-items: center;
 }
 
-p {
+p, #menu-container {
 	color: #F5FFFA;
 	font-size: 30px;
 	text-align: center;
@@ -54,3 +54,4 @@ nav button {
 	text-align: center;
 	position: relative;
 }
+
