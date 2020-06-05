@@ -23,7 +23,7 @@ nav {
 	align-items: center;
 }
 
-p, #current-container {
+#current-container {
 	color: #F5FFFA;
 	font-size: 30px;
 	text-align: center;
@@ -55,3 +55,15 @@ nav button {
 	position: relative;
 }
 
+#address-lines {
+	list-style: none;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#contact-header {
+	text-align: center;
+	width: inherit;
+}
